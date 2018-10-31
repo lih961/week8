@@ -1,0 +1,201 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    background-image: url("../Li_Huiting_Assignment_6/img/gradient1.png");
+    background-repeat: repeat-x;
+    background-size: 100% 120%;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+}
+
+header {
+    background-color: #0B3861;
+    background-image: url("../Li_Huiting_Assignment_6/img/VC-FINAL-personal%20diary_%E9%A1%B5%E9%9D%A2_01.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom
+    background-size: 100% 100%;
+    min-height: 580px;
+}
+
+h1 {
+    color: #6475a9;
+    font-size: 3em;
+    padding: 100px 80px 60px 40px;
+}
+
+h2 {
+    color: #6475a9;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #6475a9;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    color: white;
+    display: inline-block;
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-nav li a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav li a:visited {
+    color: #fff;
+}
+
+.main-nav li a:hover {
+    color: mediumvioletred;
+}
+
+.page{
+    max-width: 960px;
+}
+
+main {
+    background-color: #ebd0d5;
+    min-height: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    height: auto;
+    margin: 25px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+figcaption {
+    color: white;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0B3861;
+    margin: 0;
+    min-height: 150px;
+    padding: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    padding: 30px;
+}
+
+/*
+The following approach adapts a procedure explained by developer Tony Thomas on medialoot.com:
+http://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/
+*/
+
+/* Style 'show menu' label button and hide it by default */
+
+.show-menu {
+    color: #ebd0d5;
+    display: none;
+    float: right;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 2.2em;
+    margin: .2em;
+    text-decoration: none;
+}
+
+
+/*Hide checkbox permanently*/
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+/*Show menu when invisible checkbox is checked*/
+
+input[type=checkbox]:checked~.main-nav {
+    display: block;
+}
+
+
+/*------------MEDIA QUERIES------------------*/
+
+
+/* smartphone vertical orientation: 320px to +/- 479px*/
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    body {
+        background-color: lightseagreen;
+    }
+
+    /*Hide the navigation elements by default */
+
+    .main-nav {
+        display: none;
+        position: static;
+    }
+    /*Display the'show menu' icon link */
+    .show-menu {
+        background-color: lightseagreen;
+        display: block;
+    }
+    .main-nav li {
+        display: block;
+    }
+
+    /* smartphone and tablet: 480px to +/- 719px */
+
+@media only screen and (min-width: 30em) and (max-width: 59em) {
+    body {
+        margin: 0 auto;
+    }
+    nav li {
+        color: #fff;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
