@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Huiting Li</title>
+    <link rel="stylesheet" href="Li_Huiting_Assignment_6/reset.css" media="all">
+    <link rel="stylesheet" href="Li_Huiting_Assignment_6/styles-done.css" media="all">
+    <link rel="stylesheet" href="Li_Huiting_Assignment_6/fotorama.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Li_Huiting_Assignment_6/js/fotorama.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <nav>
+        <ul>
+                <li><a class="nav-links" href="Li_Huiting_Assignment_6/index.html">Home</a></li>
+                <li><a class="nav-links" href="Li_Huiting_Assignment_6/Huiting_Ready-to-wear.html">Ready-to-Wear</a></li>
+                <li><a class="nav-links" href="Li_Huiting_Assignment_6/Huiting_Resort.html">Resort</a></li>
+                <li><a class="nav-links" href="Li_Huiting_Assignment_6/Huiting_Accessories.html">Accessories</a></li>
+                <li><a class="nav-links" href="Li_Huiting_Assignment_6/Huiting_Contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <h1>__Spring/Summer 2018</h1>
+        <h2>Womenswear Collection</h2>
+        <div class="fotorama" data-width="80%" data-ratio="1142 /857">
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_03.jpg" alt="lookbook1">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_04.jpg" alt="lookbook2">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_05.jpg" alt="lookbook3">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_06.jpg" alt="lookbook1">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_%E9%A1%B5%E9%9D%A2_07.jpg" alt="lookbook2">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_08.jpg" alt="lookbook3">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_09.jpg" alt="lookbook1">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_10.jpg" alt="lookbook2">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_11.jpg" alt="lookbook3">
+            
+        
+            <img src="Li_Huiting_Assignment_6/img/lookbook17-23_页面_12.jpg" alt="lookbook3">
+            
+    </div>
+
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="http://facebook.com"><img src="Li_Huiting_Assignment_6/img/facebook-icon.png" alt="facebook-icon"></a>
+            </li>
+            <li>
+                <a href="http://instagram.com"><img src="Li_Huiting_Assignment_6/img/instagram-icon.png" alt="instagram-icon"></a>
+            </li>
+            <li>
+                <a href="http://twitter.com"><img src="Li_Huiting_Assignment_6/img/twitter-icon.png" alt="twitter-icon"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
